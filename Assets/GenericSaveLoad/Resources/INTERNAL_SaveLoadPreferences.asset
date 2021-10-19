@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 172cfa2d76bbb934bb72a23c19069ff2, type: 3}
   m_Name: INTERNAL_SaveLoadPreferences
   m_EditorClassIdentifier: 
-  saveFolder: SaveData
-  saveExtension: db
-  defaultSaveName: save
+  saveFolder: save_data
+  saveExtension: db_s
+  defaultSaveName: save_01

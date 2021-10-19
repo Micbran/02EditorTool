@@ -1,10 +1,10 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Runtime.Serialization;
-using UnityEngine;
-
-public interface ITypedSerializationSurrogate : ISerializationSurrogate
+namespace SaveLoadSystem
 {
-    public Type GetBaseType();
+    using System;
+    using System.Runtime.Serialization;
+
+    public interface ITypedSerializationSurrogate : ISerializationSurrogate
+    {
+        public Type GetBaseType();
+    }
 }
