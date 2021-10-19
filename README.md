@@ -13,9 +13,9 @@ Clicking **Save System Preferences** will open up a small window that allows you
 ![Layout of the tool](images/ExampleImage1.jpg)
 
 Pictured here is the tool's location in the `Window` tab as well as its general layout.  
-The `Save/Load FolderPath` is where in your `Application.PersistentData` you want save data be stored.  
+The `Save/Load FolderPath` is where in your `Application.PersistentData` you want save data to be stored.  
 The `Extension` is what extension should be tacked onto the end of your save data.  
-Lastly, the `Default File Name` is what your file gets named if you don't provide a file name for input for save/load operations.  
+Lastly, the `Default File Name` is what your file gets named if you don't provide a filename for input for save/load operations.  
 The `Additional Serialization Handlers` section at the bottom is more diagnostic than anything. It lists which classes it has picked up that have implemented `ITypedSerializationSurrogate`. Should you need to serialize/deserialize something slightly more complex than a Vector3, you'll likely want to write your own `ITypedSerializationSurrogate` and make sure it gets picked up here (which should be automatic, on compile time).
 
 Once you've configured the tool, there are only a few caveats left.
